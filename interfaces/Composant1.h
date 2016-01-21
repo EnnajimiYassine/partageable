@@ -1,6 +1,8 @@
 #pragma once
 #ifndef COMPOSANT1_H
 #define COMPOSANT1_H
+#define COMPOSANT1_VERSION 1,2,0,0
+#define COMPOSANT_VERSION_STR ”1,2,0,0”
 
 #ifdef COMPOSANT1_EXPORTS
 	#define COMPOSANT1_INTERFACE __declspec(dllexport)
