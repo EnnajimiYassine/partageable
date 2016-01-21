@@ -1,6 +1,6 @@
 // Composant2.cpp : Defines the routines for the DLL.
 //
-#include "Composant2Version.h"
+
 #include "Composant2.h"
 
 int composant2(int p1, int p2)
