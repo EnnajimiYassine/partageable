@@ -25,6 +25,6 @@ char * getComposant1Version()
 	char * str2 = " Composant 1 version "  COMPOSANT_VERSION_STR;
 	char * version = (char*)malloc(strlen(str)+strlen(str2));
 	strcpy(version, str);
-	strcpy(version, str2);
+	strcat(version, str2);
 	return version ;
 }
