@@ -1,0 +1,6 @@
+﻿  Composant4.cpp
+c:\users\yassix2\documents\github\partageable\composant4\composant4.cpp(24): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: voir la déclaration de 'strcpy'
+c:\users\yassix2\documents\github\partageable\composant4\composant4.cpp(25): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(90): note: voir la déclaration de 'strcat'
+  Composant4.vcxproj -> C:\Users\Yassix2\Documents\GitHub\partageable\Debug\Composant4.dll
