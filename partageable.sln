@@ -21,9 +21,6 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Composant3", "Composant3\Composant3.vcxproj", "{E4510D7D-43FB-444C-A10A-3B99911303F1}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Composant4", "Composant4\Composant4.vcxproj", "{92A52272-C01F-4B54-B0A8-935BCACE6805}"
-	ProjectSection(ProjectDependencies) = postProject
-		{5001BDBB-2E45-485A-AB91-0C9770A413BC} = {5001BDBB-2E45-485A-AB91-0C9770A413BC}
-	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
