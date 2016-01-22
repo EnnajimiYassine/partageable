@@ -14,6 +14,7 @@
     <ProjectGuid>{F6B61D36-AC7D-4BA3-B0E1-396B3EEBE9C7}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>partageable</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -53,6 +54,7 @@
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>$(SolutionDir)Interfaces</AdditionalIncludeDirectories>
+      <OmitDefaultLibName>false</OmitDefaultLibName>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
