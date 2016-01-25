@@ -153,8 +153,8 @@
     <ResourceCompile Include="Composant4.rc" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Composant3\Composant3.vcxproj">
-      <Project>{e4510d7d-43fb-444c-a10a-3b99911303f1}</Project>
+    <ProjectReference Include="..\Composant1\Composant1.vcxproj">
+      <Project>{5001bdbb-2e45-485a-ab91-0c9770a413bc}</Project>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

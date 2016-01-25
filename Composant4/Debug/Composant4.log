@@ -1,6 +1,13 @@
 ﻿  Composant4.cpp
+c:\users\yassix2\documents\github\partageable\interfaces\composant4.h(14): warning C4273: 'composant1' : liaison DLL incohérente
+  c:\users\yassix2\documents\github\partageable\interfaces\composant1.h(14): note: voir la définition précédente de 'composant1'
+c:\users\yassix2\documents\github\partageable\interfaces\composant4.h(15): warning C4273: 'getComposant1Version' : liaison DLL incohérente
+  c:\users\yassix2\documents\github\partageable\interfaces\composant1.h(15): note: voir la définition précédente de 'getComposant1Version'
 c:\users\yassix2\documents\github\partageable\composant4\composant4.cpp(24): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: voir la déclaration de 'strcpy'
 c:\users\yassix2\documents\github\partageable\composant4\composant4.cpp(25): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(90): note: voir la déclaration de 'strcat'
+c:\users\yassix2\documents\github\partageable\composant4\composant4.cpp(27): warning C4717: 'getComposant1Version' : récurrent sur tous les chemins d'accès de contrôle, la fonction entraînera un dépassement de capacité de la pile d'exécution
+c:\users\yassix2\documents\github\partageable\composant4\composant4.cpp(15): warning C4717: 'composant1' : récurrent sur tous les chemins d'accès de contrôle, la fonction entraînera un dépassement de capacité de la pile d'exécution
+     Création de la bibliothèque C:\Users\Yassix2\Documents\GitHub\partageable\Debug\Composant4.lib et de l'objet C:\Users\Yassix2\Documents\GitHub\partageable\Debug\Composant4.exp
   Composant4.vcxproj -> C:\Users\Yassix2\Documents\GitHub\partageable\Debug\Composant4.dll

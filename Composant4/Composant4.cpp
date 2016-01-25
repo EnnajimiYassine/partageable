@@ -8,17 +8,17 @@ int addition_interne(int a1, int a2);
 
 
 
-int composant4(int p1, int p2)
+int composant1(int p1, int p2)
 {
 
-	return Composant3(p1, p2);
+	return composant1(p1, p2);
 }
 
 
 
-char * getComposant4Version()
+char * getComposant1Version()
 {
-	char * str = getComposant3Version();
+	char * str = getComposant1Version();
 	char * str2 = " Composant 4 version "  COMPOSANT4_VERSION_STR;
 	char * version = (char*)malloc(strlen(str) + strlen(str2));
 	strcpy(version, str);
